@@ -12,6 +12,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'bling/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'aklt/plantuml-syntax'
+Plug 'majutsushi/tagbar'
 
 call plug#end()
 
@@ -61,7 +62,6 @@ map <C-Right> :bn<CR>
 map <C-Left> :bp<CR>
 map <C-V> "+gP<CR>
 map <Leader><Leader> :w<CR>
-imap <Leader><Leader> :w<CR>
 
 set list
 if has('multi_byte') && &encoding ==# 'utf-8'
