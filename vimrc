@@ -13,6 +13,9 @@ Plug 'bling/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'aklt/plantuml-syntax'
 Plug 'majutsushi/tagbar'
+Plug 'scrooloose/nerdcommenter'
+Plug 'gwww/vim-bbye'
+Plug 'travitch/hasksyn'
 
 call plug#end()
 
@@ -62,6 +65,7 @@ map <C-Right> :bn<CR>
 map <C-Left> :bp<CR>
 map <C-V> "+gP<CR>
 map <Leader><Leader> :w<CR>
+map <Leader>q :Bdelete<CR>
 
 set list
 if has('multi_byte') && &encoding ==# 'utf-8'
