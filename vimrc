@@ -16,7 +16,7 @@ Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdcommenter'
 Plug 'gwww/vim-bbye'
 Plug 'travitch/hasksyn'
-
+Plug 'plasticboy/vim-markdown'
 call plug#end()
 
 set autoindent
